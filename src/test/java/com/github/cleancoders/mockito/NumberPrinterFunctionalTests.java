@@ -14,5 +14,6 @@ public class NumberPrinterFunctionalTests {
     @Test
     public void testNumberPrinterWithCalculator() throws TimeoutException {
         // Hint: Verify the Calculator and printer is called the correct number of times
+        assert false;
     }
 }

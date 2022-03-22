@@ -13,11 +13,13 @@ public class NumberPrinterIntegrationTests {
     @Test
     public void testNumberPrinterProductive() throws TimeoutException {
         // Hint: Run it with the real implementations
+        assert false;
     }
 
     @Test
     public void testNumberPrinterProductiveFaster() throws TimeoutException {
         // Hint: Run it with the real calculator implementation
         // Find a way to speed up the test without using Mockito
+        assert false;
     }
 }

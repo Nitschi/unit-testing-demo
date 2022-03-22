@@ -16,11 +16,11 @@ public class NumberPrinterUnitTests {
     @Test
     public void testPrinterInvokedRightTimes() throws TimeoutException {
         // Hint: Only verify that the printer is invoked the correct number of times
-        throw new NotImplementedException();
+        assert false;
     }
 
     @Test
     public void testCalculatorTimeoutExceptionIsCaught() throws TimeoutException {
-        throw new NotImplementedException();
+        assert false;
     }
 }
