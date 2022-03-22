@@ -13,8 +13,10 @@ Unit Testing Demo
 ## Setup Intellij
 
 - Open IntelliJ and enter this license server: `http://jb-license-server` -> Activate
-- Open Intellij and choose `New Project from VCS` -> `Git` -> `https://github.com/Nitschi/unit-testing-demo.git`
-- Right-Click the root folder -> `Run Tests in unit-testin-demo`
+- Open Intellij and choose `Get from VCS` -> `Git` -> `https://github.com/Nitschi/unit-testing-demo.git`
+- Wait for Intellij to load the project
+- Right-Click the root folder -> `Run Tests in unit-testing-demo`
+- Click the Tick-Symbol ("Show Passed") in the Runner-Window that opened to see all tests
 
 ## Alternative: Manually
 
