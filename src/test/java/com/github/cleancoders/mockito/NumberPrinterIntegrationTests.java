@@ -12,31 +12,12 @@ public class NumberPrinterIntegrationTests {
 
     @Test
     public void testNumberPrinterProductive() throws TimeoutException {
-        ICalculator realCalculator = new Calculator();
-        IPrinter realPrinter = new ConsolePrinter();
-
-        NumberPrinter numberPrinter = new NumberPrinter(realCalculator, realPrinter);
-        numberPrinter.printNumbers(2);
-
-        Assertions.assertDoesNotThrow(()-> numberPrinter.printNumbers(2));
+        // Hint: Run it with the real implementations
     }
 
     @Test
-    public void testNumberPrinterFakePrinter() throws TimeoutException {
-        ICalculator realCalculator = new Calculator();
-        IPrinter printerFake = new PrinterFake();
-
-        NumberPrinter numberPrinter = new NumberPrinter(realCalculator, printerFake);
-        numberPrinter.printNumbers(2);
-
-        Assertions.assertDoesNotThrow(()-> numberPrinter.printNumbers(2));
-    }
-}
-
-class PrinterFake implements IPrinter{
-
-    @Override
-    public void print(String s) {
-        // Do nothing
+    public void testNumberPrinterProductiveFaster() throws TimeoutException {
+        // Hint: Run it with the real calculator implementation
+        // Find a way to speed up the test without using Mockito
     }
 }
