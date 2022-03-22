@@ -26,6 +26,10 @@ Navigate to newly created folder and run:
 
 `gradlew test`
 
+# Videos
+
+Complete the exercise after watching this [Video on Mocks, Stubs and Spies](https://youtu.be/tVCSKsMtXn0)
+
 # Referenced articles
 
 Based on https://github.com/kolorobot/unit-testing-demo, which in turn references the following:

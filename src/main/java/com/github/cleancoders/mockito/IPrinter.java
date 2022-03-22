@@ -1,5 +1,5 @@
 package com.github.cleancoders.mockito;
 
-interface Printer {
+interface IPrinter {
     void print(String s);
 }
