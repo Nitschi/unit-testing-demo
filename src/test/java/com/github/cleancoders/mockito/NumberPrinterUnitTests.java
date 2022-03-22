@@ -13,7 +13,7 @@ import static org.mockito.Mockito.*;
 public class NumberPrinterUnitTests {
 
     @Test
-    public void testNumberPrinterHappyPath() throws TimeoutException {
+    public void testPrinterInvokedRightTimes() throws TimeoutException {
         ICalculator calculatorStubResponder = mock(ICalculator.class);
         when(calculatorStubResponder.calculate(anyInt())).thenReturn("1");
         IPrinter printerMock = mock(IPrinter.class);
@@ -25,7 +25,7 @@ public class NumberPrinterUnitTests {
     }
 
     @Test
-    public void testNumberPrinterCalculatorTimeout() throws TimeoutException {
+    public void testCalculatorTimeoutExceptionIsCaught() throws TimeoutException {
         ICalculator calculatorStubSaboteur = mock(ICalculator.class);
         when(calculatorStubSaboteur.calculate(anyInt())).thenThrow(new TimeoutException());
         IPrinter printerMock = mock(IPrinter.class);
