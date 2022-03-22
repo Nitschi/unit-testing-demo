@@ -1,5 +1,6 @@
-Unit Testing Demo
+Clean Coders 03.2022: Mocks, Stubs and Spies
 =================
+Based on https://github.com/kolorobot/unit-testing-demo
 
 # Getting started
 
@@ -32,20 +33,5 @@ Navigate to newly created folder and run:
 
 Complete the exercise after watching this [Video on Mocks, Stubs and Spies](https://youtu.be/tVCSKsMtXn0)
 
-# Referenced articles
-
-Based on https://github.com/kolorobot/unit-testing-demo, which in turn references the following:
-Examples in this project are partly coming from blog posts at http://blog.codeleak.pl:
-
-- http://blog.codeleak.pl/2017/06/cleaner-parameterized-tests-with-junit-5.html
-- http://blog.codeleak.pl/2017/06/testing-exceptions-with-junit-5.html
-- http://blog.codeleak.pl/2015/04/junit-testing-exceptions-with-java-8.html
-- http://blog.codeleak.pl/2015/01/testing-with-files-and-directories-in.html
-- http://blog.codeleak.pl/2014/07/junit-testing-exception-with-java-8-and-lambda-expressions.html
-- http://blog.codeleak.pl/2014/05/spice-up-your-test-code-with-custom-assertions.html
-- http://blog.codeleak.pl/2014/04/yet-another-way-to-handle-exceptions-in.html
-- http://blog.codeleak.pl/2014/03/junit-expectedexception-rule-beyond.html
-- http://blog.codeleak.pl/2013/07/3-ways-of-handling-exceptions-in-junit.html
-- http://blog.codeleak.pl/2014/06/test-data-builders-and-object-mother.html
-- http://blog.codeleak.pl/2014/11/unit-testing-excercise-with-fizzbuzz.html
-- http://blog.codeleak.pl/2013/12/parametrized-junit-tests-with.html
+# Exercise
+- Fill in the failing tests with the appropriate mocks, stubs, spies and fakes
