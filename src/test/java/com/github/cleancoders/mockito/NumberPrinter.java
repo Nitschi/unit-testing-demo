@@ -1,9 +1,9 @@
-package com.github.kolorobot.mockito.annotations;
+package com.github.cleancoders.mockito;
 
 class NumberPrinter {
 
-    private Calculator calculator;
-    private Printer printer;
+    private final Calculator calculator;
+    private final Printer printer;
 
     public NumberPrinter(Calculator calculator, Printer printer) {
         this.calculator = calculator;

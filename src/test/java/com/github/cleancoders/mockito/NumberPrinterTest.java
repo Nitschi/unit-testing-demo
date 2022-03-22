@@ -1,4 +1,4 @@
-package com.github.kolorobot.mockito.annotations;
+package com.github.cleancoders.mockito;
 
 import org.junit.Before;
 import org.junit.Test;

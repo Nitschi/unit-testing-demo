@@ -1,4 +1,4 @@
-package com.github.kolorobot.mockito.annotations;
+package com.github.cleancoders.mockito;
 
 interface Calculator {
     String calculate(int number);

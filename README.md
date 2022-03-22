@@ -3,15 +3,24 @@ Unit Testing Demo
 
 # Getting started
 
-## Prerequisite
+## Installation (on Windows 10)
 
-JDK 8 and Git must be installed in order to run the project locally.
+- Open an admin Powershell to execute the following commands:
+    - Install chocolatey package-manager
+        - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+    - `choco install jdk8 intellijidea-ultimate`
 
-## Cloning the repository and running tests
+## Setup Intellij
+
+- Open IntelliJ and enter this license server: `http://jb-license-server` -> Activate
+- Open Intellij and choose `New Project from VCS` -> `Git` -> `https://github.com/Nitschi/unit-testing-demo.git`
+- Right-Click the root folder -> `Run Tests in unit-testin-demo`
+
+## Alternative: Manually
 
 Clone the repository:
 
-`git clone https://github.com/kolorobot/unit-testing-demo.git unit-testing-demo`
+`git clone https://github.com/Nitschi/unit-testing-demo.git`
 
 Navigate to newly created folder and run:
 
@@ -19,6 +28,7 @@ Navigate to newly created folder and run:
 
 # Referenced articles
 
+Based on https://github.com/kolorobot/unit-testing-demo, which in turn references the following:
 Examples in this project are partly coming from blog posts at http://blog.codeleak.pl:
 
 - http://blog.codeleak.pl/2017/06/cleaner-parameterized-tests-with-junit-5.html
